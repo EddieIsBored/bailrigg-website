@@ -8,9 +8,19 @@ const IndexPage = () => {
     return (
         <main>
             <Layout>
-                <title>Home Page</title>
-                <h1>Welcome to my Gatsby site!</h1>
-                <p>I'm making this by following the Gatsby Tutorial.</p>
+                <section>
+                    <title>Home Page</title>
+                    <h1>Welcome to my Gatsby site!</h1>
+                    <h2>I'm making this by following the Gatsby Tutorial.</h2>
+                </section>
+
+                <section className = "radioplayer">
+                    {/* TODO: Currently playing, next up, parallax image scrolling, current show */}
+                </section>
+
+                <section className = "archives"> 
+                    {/*TODO: Latest shows, send a message */}
+                </section>
             </Layout>
     </main>
     )
